@@ -121,10 +121,7 @@ h2{
 }
 .contact-wrapper p{
   font-size:20px;
-}
-.contact-wrapper span{
-  font-size: 100px;
-  color:#0099cc;
+  margin-bottom: 0;
 }
 footer{
   background-color: black;
