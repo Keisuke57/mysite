@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic";
+}
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container{
+  max-width: 1000px;
+  width:100%;
+  margin:0 auto;
+  padding: 0;
+  font-size: 0;
+  display: block;
+}
+a{
+  color: black;
+}
+header{
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: white;
+}
+.bar-nav{
+  float: right;
+  display: none;
+}
+.fa-bars{
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 25px 20px 0px 0px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+nav a{
+  display:inline-block;
+  padding:0 20px;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+}
+header a:hover{
+  background-color: #c0c0c0;
+}
+.top-wrapper,.about-wrapper,.skill-wrapper{
+  padding: 100px 0px;
+}
+.top-wrapper h1{
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+.about-wrapper{
+  background-color: #c0c0c0;
+}
+h2{
+  font-size: 40px;
+  text-align: center;
+}
+.main{
+  display:flex;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.myface{
+  width: 200px;
+  height: 200px;
+  margin:0 auto;
+  border-radius: 100px;
+}
+.about-text{
+  opacity: 0.6;
+  text-align: left;
+  margin-left: 40px;
+  font-size: 17px;
+}
+.skill-wrapper{
+  background-color:#336699;
+}
+.skills{
+  font-size: 150px;
+  display: flex;
+  text-align: center;
+}
+.skill{
+  width: 33.3%;
+}
+.skill-icon{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.skill-name{
+  font-size: 30px;
+}
+.skill-text{
+  font-size: 15px;
+  text-align: left;
+}
+.contact-wrapper{
+  background-color: #c0c0c0;
+  text-align: center;
+  padding-top:20px;
+}
+.contact-wrapper h3{
+  font-size: 40px;
+}
+.contact-wrapper p{
+  font-size:20px;
+}
+.contact-wrapper span{
+  font-size: 100px;
+  color:#0099cc;
+}
+footer{
+  background-color: black;
+}
+footer p{
+  font-size: 10px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  opacity: 0.7;
+  display: block;
+  margin:0;
+}
+#modal-nav{
+  display: none;
+  background-color: black;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  top:0;
+  right: 0;
+  float: right;
+}
+#modal-nav span{
+  font-size: 20px;
+  color: white;
+  float: right;
+  padding:0px 15px 10px 0px;
+}
+#modal-nav ul{
+  flex-direction: column;
+}
+#modal-nav a{
+  color: white;
+  padding-top:20px;
+}

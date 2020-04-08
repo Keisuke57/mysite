@@ -1,0 +1,30 @@
+@media(max-width:480px){
+  *{
+    width: auto;
+  }
+  header{
+    display: none;
+  }
+  #bar-nav{
+    display: block;
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 100;
+  }
+  .main{
+    flex-direction: column;
+  }
+  .about-text{
+    padding-top: 30px;
+  }
+  .skills{
+    flex-direction: column;
+  }
+  .skill{
+    width: 100%;
+  }
+  .html5,.css3{
+    padding-bottom: 30px;
+  }
+}
