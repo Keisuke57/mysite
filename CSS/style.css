@@ -89,6 +89,7 @@ h2{
 }
 .skill-wrapper{
   background-color:#336699;
+  padding: 15px;
 }
 .skills{
   font-size: 150px;
@@ -96,7 +97,7 @@ h2{
   text-align: center;
 }
 .skill{
-  width: 33.3%;
+  width: 25%;
 }
 .skill-icon{
   width: 60%;
